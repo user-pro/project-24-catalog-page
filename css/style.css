@@ -492,48 +492,6 @@ input:focus:-ms-input-placeholder {
   color: transparent;
 }
 
-.header__burger {
-  display: none;
-}
-
-#header-check:checked ~ .header__burger::before {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
-  top: 6px;
-  width: 28px;
-}
-
-#header-check:checked ~ .header__burger::after {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  bottom: 7px;
-  width: 28px;
-}
-
-#header-check:checked ~ .header__burger span {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
-}
-
-#header-check:checked ~ .header__menu {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  left: 0;
-}
-
 .container {
   max-width: 1310px;
   padding: 0px 15px;
