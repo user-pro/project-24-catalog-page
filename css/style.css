@@ -631,8 +631,8 @@ body {
 }
 
 .c-page-main {
+  min-height: calc(100vh - 80px);
   overflow: hidden;
-  min-height: 100vh;
   position: relative;
   z-index: 1;
   background-image: url(../img/catalog-page-bg.png);
